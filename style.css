@@ -1,0 +1,574 @@
+@font-face {
+  font-family: RightGrotesk;
+  src: url(RightGrotesk-CompactBlack.otf);
+}
+@font-face {
+  font-family: regular;
+  src: url(RightGrotesk-Regular.ttf);
+}
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+  /* background-color: red; */
+}
+
+#page1 {
+  height: 100%;
+  width: 100%;
+  background-image: url(https://images.prismic.io/yubo/6118791b-2978-4f39-bc06-0d5d43cd6e93_LargeGraphics.webp?auto=compress,format&rect=0,0,1600,900&w=1680&h=945);
+  background-size: cover;
+  position: relative;
+  padding-top: 1px;
+}
+#page1 #nav {
+  position: fixed;
+  z-index: 2;
+  margin-top: 20px;
+  height: 80px;
+  width: 100%;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 580px;
+}
+#page1 #nav i {
+  font-size: 30px;
+  color: white;
+}
+#page1 #nav #logo {
+  height: 70px;
+}
+#page1 #nav #icon {
+  height: 50px;
+  width: 100px;
+  border-radius: 30px;
+}
+
+#page1 h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* background-color: red; */
+  font-size: 170px;
+  font-family: RightGrotesk;
+  color: #ffe30a;
+  text-align: center;
+  line-height: 150px;
+}
+
+#page2 {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-color: #ffe30a;
+  display: flex;
+}
+
+#page2-left {
+  height: 100%;
+  width: 50%;
+  /* background-color: red; */
+  position: relative;
+}
+#page2-left h1 {
+  position: absolute;
+  top: 90px;
+  left: 190px;
+  font-size: 130px;
+  font-family: RightGrotesk;
+  line-height: 120px;
+}
+#page2-left #img1 {
+  position: absolute;
+  left: 200px;
+  bottom: 20%;
+}
+#page2-left #img2 {
+  position: absolute;
+  left: 400px;
+  bottom: 20%;
+}
+
+#page2-right {
+  height: 100%;
+  width: 50%;
+  /* background-color: rgb(187, 255, 0); */
+  position: relative;
+}
+#page2-right #phn {
+  height: 100%;
+  /* width: 70%; */
+}
+#page2-right #carton {
+  position: absolute;
+  bottom: 0%;
+  left: 40%;
+  height: 30%;
+}
+#page2-right #lets-yubo {
+  position: absolute;
+  bottom: 26%;
+  left: 55%;
+  width: 28%;
+}
+#page2-right #that-is {
+  position: absolute;
+  top: 17%;
+  left: 32%;
+  width: 28%;
+}
+#page2-right #join-chat {
+  position: absolute;
+  top: 35%;
+  left: -20%;
+}
+#page2-right #hey-friends {
+  position: absolute;
+  top: 63%;
+  left: -20%;
+}
+
+#page3 {
+  height: 100%;
+  width: 100%;
+  background-color: #ffe30a;
+  background-image: url(https://www.yubo.live/assets/img/black-cloud-homepage.svg);
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+}
+#page3-left {
+  height: 100%;
+  width: 55%;
+  /* background-color: red; */
+  position: relative;
+}
+#page3-left h1 {
+  color: #ffe30a;
+  font-size: 135px;
+  font-family: RightGrotesk;
+  line-height: 130px;
+  position: absolute;
+  top: 20%;
+  right: 20%;
+}
+#page3-right {
+  height: 100%;
+  width: 45%;
+  /* background-color: rgb(0, 255, 4); */
+  position: relative;
+}
+#page3-right h2 {
+  color: white;
+  font-size: 35px;
+  font-weight: 100;
+  font-family: regular;
+  position: absolute;
+  top: 30%;
+  left: 0%;
+}
+#page3-right button {
+  background-color: #ffe30a;
+  color: black;
+  position: absolute;
+  top: 65%;
+  left: 0%;
+  height: 8%;
+  width: 25%;
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: -1px;
+}
+
+#page4 {
+  height: 100%;
+  width: 100%;
+  background-color: #151400;
+  display: flex;
+}
+#page4-left {
+  height: 100%;
+  width: 50%;
+  /* background-color: red; */
+  position: relative;
+}
+#page4-left img {
+  height: 27%;
+  position: absolute;
+  top: 0%;
+  left: 35%;
+}
+#page4-left p {
+  color: white;
+  font-size: 30px;
+  font-weight: 100;
+  font-family: regular;
+  position: absolute;
+  bottom: 20%;
+  left: 25%;
+}
+#page4-left button {
+  background-color: #ffe30a;
+  color: black;
+  position: absolute;
+  bottom: 1%;
+  left: 25%;
+  height: 8%;
+  width: 18%;
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: -1px;
+}
+#page4-right {
+  height: 100%;
+  width: 50%;
+  /* background-color: rgb(0, 255, 251); */
+  position: relative;
+}
+#page4-right img {
+  position: absolute;
+  top: 0%;
+  height: 100%;
+  width: 70%;
+  border-radius: 30px;
+}
+
+#page5 {
+  height: 100%;
+  width: 100%;
+  background-color: #151400;
+  background-image: url(https://www.yubo.live/assets/img/purple-cloud.svg);
+  background-size: cover;
+  position: relative;
+}
+#page5 h1 {
+  /* background-color: blueviolet; */
+  color: #ffe30a;
+  font-family: RightGrotesk;
+  font-size: 140px;
+  line-height: 130px;
+  position: absolute;
+  left: 12%;
+  top: 2%;
+}
+#page5 h1 img {
+  height: 100px;
+}
+
+#page5 button {
+  background-color: #ffe30a;
+  color: black;
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  height: 8%;
+  width: 12%;
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: -1px;
+}
+
+#page5 #tips {
+  position: absolute;
+  top: 28%;
+  right: 12%;
+  background-color: red;
+  border-radius: 30px;
+  height: 65%;
+  width: 35%;
+}
+#page5 #tips img {
+  height: 100%;
+  width: 100%;
+  border-radius: 30px;
+}
+#page5 #tips #overlay {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.468);
+  position: absolute;
+  top: 0%;
+  border-radius: 30px;
+}
+#page5 #tips #overlay button {
+  color: black;
+  background-color: #ff5252;
+  border-radius: 5px;
+  height: 8%;
+  width: 15%;
+  font-family: RightGrotesk;
+  letter-spacing: 0.5px;
+  position: absolute;
+  top: 3%;
+  left: 5%;
+}
+#page5 #tips #overlay h2 {
+  color: white;
+  font-family: RightGrotesk;
+  font-size: 55px;
+  line-height: 50px;
+  position: absolute;
+  left: 3%;
+  bottom: 20%;
+}
+#page5 #tips #overlay p {
+  color: white;
+  font-size: 20px;
+  font-family: regular;
+  position: absolute;
+  bottom: 8%;
+  left: 3%;
+}
+#page5 #tips #overlay p img {
+  height: 20px;
+  width: 20px;
+}
+
+#page5 #horoscope {
+  z-index: 1;
+  background-color: red;
+  height: 70%;
+  width: 27%;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  border-radius: 30px;
+}
+#page5 #horoscope img {
+  height: 100%;
+  width: 100%;
+  background-position: 50% 10%;
+  border-radius: 30px;
+}
+#page5 #horoscope #overlay {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.468);
+  position: absolute;
+  top: 0%;
+  border-radius: 30px;
+}
+#page5 #horoscope #overlay button {
+  color: black;
+  background-color: #8e6bff;
+  border-radius: 5px;
+  height: 8%;
+  width: 15%;
+  font-family: RightGrotesk;
+  letter-spacing: 0.5px;
+  position: absolute;
+  top: 3%;
+  right: 9%;
+}
+#page5 #horoscope #overlay h2 {
+  color: white;
+  font-family: RightGrotesk;
+  font-size: 55px;
+  line-height: 50px;
+  position: absolute;
+  left: 5%;
+  bottom: 20%;
+}
+#page5 #horoscope #overlay p {
+  color: white;
+  font-size: 20px;
+  font-family: regular;
+  position: absolute;
+  bottom: 8%;
+  left: 5%;
+}
+#page5 #horoscope #overlay p img {
+  height: 20px;
+  width: 20px;
+}
+
+#page6 {
+  height: 100%;
+  width: 100%;
+  background-color: #976bff;
+  position: relative;
+}
+#page6 #community {
+  background-color: red;
+  height: 70%;
+  width: 29%;
+  margin-left: 37%;
+  border-radius: 30px;
+}
+#page6 #community img {
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  border-radius: 30px;
+}
+#page6 #community #overlay {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.468);
+  position: absolute;
+  top: 0%;
+  border-radius: 30px;
+}
+#page6 #community #overlay button {
+  color: black;
+  background-color: #ffe500;
+  border-radius: 5px;
+  height: 8%;
+  width: 25%;
+  font-size: 20px;
+  font-family: RightGrotesk;
+  letter-spacing: 0.5px;
+  position: absolute;
+  top: 3%;
+  left: 9%;
+}
+#page6 #community #overlay h2 {
+  color: white;
+  font-family: RightGrotesk;
+  font-size: 55px;
+  line-height: 50px;
+  position: absolute;
+  left: 5%;
+  bottom: 20%;
+}
+#page6 #community #overlay p {
+  color: white;
+  font-size: 20px;
+  font-family: regular;
+  position: absolute;
+  bottom: 8%;
+  left: 5%;
+}
+#page6 #community #overlay p img {
+  height: 20px;
+  width: 20px;
+}
+
+#image {
+  height: 50%;
+  width: 100%;
+  background-color: #996bff;
+  position: relative;
+}
+#image #toy {
+  height: 98%;
+  position: absolute;
+  left: 35%;
+  z-index: 1;
+}
+#image #bg {
+  position: absolute;
+  top: 80%;
+  width: 100%;
+}
+
+#footer {
+  height: 100%;
+  width: 100%;
+  background-color: #ffe500;
+  position: relative;
+}
+#about {
+  /* background-color: red; */
+  position: absolute;
+  top: 10%;
+  left: 5%;
+}
+#community {
+  /* background-color: red; */
+  position: absolute;
+  top: 10%;
+  left: 19%;
+}
+#safety {
+  /* background-color: red; */
+  position: absolute;
+  top: 10%;
+  left: 40%;
+}
+#privacy {
+  /* background-color: red; */
+  position: absolute;
+  top: 10%;
+  left: 61%;
+}
+#support {
+  /* background-color: red; */
+  position: absolute;
+  top: 10%;
+  right: 5%;
+}
+#footer h2 {
+  font-family: RightGrotesk;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+#footer h5 {
+  font-family: regular;
+  font-weight: 100;
+  font-size: 25px;
+  line-height: 35px;
+}
+
+#icons {
+  /* background-color: red; */
+  height: 10%;
+  width: 25%;
+  position: absolute;
+  bottom: 25%;
+  left: 35%;
+}
+#icons img {
+  margin-left: 20px;
+}
+
+#terms {
+  /* background-color: red; */
+  height: 5%;
+  width: 50%;
+  position: absolute;
+  bottom: 10%;
+  left: 5%;
+  display: flex;
+  align-items: center;
+}
+#terms h4 {
+  font-family: RightGrotesk;
+  margin-right: 5%;
+  font-size: 18px;
+}
+#footer p {
+  font-family: regular;
+  font-size: 20px;
+  position: absolute;
+  bottom: 11%;
+  left: 55%;
+}
+#footer h6 {
+  font-family: RightGrotesk;
+  font-size: 18px;
+  position: absolute;
+  bottom: 11%;
+  right: 5%;
+}
